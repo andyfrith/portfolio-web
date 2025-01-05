@@ -9,7 +9,7 @@ export default function Welcome() {
           React // Full-Stack // Lead
         </div>
       </div>
-      <div className="font-[family-name:var(--font-metrophobic)] text-sm">
+      <div className="font-[family-name:var(--font-metrophobic)] text-sm text-gray-500">
         I enjoy the challenge of frontend development while solving complex,
         multi-dimensional problems in a large-scale software architecture. I
         believe in the extreme collaboration within and between teams- unified
