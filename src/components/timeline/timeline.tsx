@@ -9,11 +9,7 @@ import { ExperienceType } from "@/lib/data";
 export default function Timeline({ data }: { data: Array<ExperienceType> }) {
   return (
     <>
-      <VerticalTimeline
-        layout="1-column-right"
-        className="!w-full !mt-4"
-        lineColor="grey"
-      >
+      <VerticalTimeline className="!w-full !mt-4" lineColor="grey">
         {data.map((item) => (
           <TimelineFragment key={item.id} item={item} />
         ))}
