@@ -4,14 +4,10 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@radix-ui/react-collapsible";
-import { ExperienceCompany } from "@/lib/data";
+import { CompanyType } from "@/lib/data";
 import Company from "./elements/company";
 
-export default function ItemCompany({
-  company,
-}: {
-  company: ExperienceCompany;
-}) {
+export default function ItemCompany({ company }: { company: CompanyType }) {
   return (
     <Collapsible>
       <CollapsibleTrigger className="mt-2 text-xs font-semibold hover:text-[#39FF14]">

@@ -63,6 +63,8 @@ export type TimelineType = {
   summary: string;
 };
 
+export type SectionName = string;
+
 export const experiencesData: Array<ExperienceType> = [
   { ...optii },
   { ...avero },

@@ -4,13 +4,13 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@radix-ui/react-collapsible";
-import { ExperienceResults } from "@/lib/data";
+import { ResultType } from "@/lib/data";
 import Achievements from "@/components/timeline/elements/achievements";
 
 export default function TimelineElementAchievements({
   achievements,
 }: {
-  achievements: ExperienceResults;
+  achievements: Array<ResultType>;
 }) {
   return (
     <Collapsible>
