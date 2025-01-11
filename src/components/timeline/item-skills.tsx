@@ -5,20 +5,19 @@ import {
   CollapsibleTrigger,
 } from "@radix-ui/react-collapsible";
 import Skills from "@/components/skills";
-import { ExperienceSkills } from "@/lib/data";
 
 export default function TimelineElementSkills({
   skills,
 }: {
-  skills: ExperienceSkills;
+  skills: Array<string>;
 }) {
   return (
     <Collapsible>
-      <CollapsibleTrigger className="mt-2 text-xs font-semibold">
+      <CollapsibleTrigger className="mt-2 text-xs font-semibold hover:text-[#39FF14]">
         Technologies & Skills ...
       </CollapsibleTrigger>
       <CollapsibleContent>
-        <Skills data={skills} />
+        <Skills skills={skills} />
       </CollapsibleContent>
     </Collapsible>
   );

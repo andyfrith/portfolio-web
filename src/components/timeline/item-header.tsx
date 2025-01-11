@@ -7,10 +7,8 @@ export default function TimelineElementHeader({
   role: ExperienceRole;
 }) {
   return (
-    <h3 className="font-semibold capitalize text-sm text-[#2df82c] bg-gray-600 p-2 mb-2">
-      <a href="" className="hover:underline">
-        {role}
-      </a>
+    <h3 className="font-semibold capitalize text-sm text-[#39FF14] bg-gray-600 p-2 mb-2">
+      {role}
     </h3>
   );
 }

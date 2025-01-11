@@ -4,12 +4,16 @@ import React from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import TimelineFragment from "./timeline-fragment";
-import { Experience } from "@/lib/data";
+import { ExperienceType } from "@/lib/data";
 
-export default function Timeline({ data }: { data: Array<Experience> }) {
+export default function Timeline({ data }: { data: Array<ExperienceType> }) {
   return (
     <>
-      <VerticalTimeline className="!w-full !mt-4" lineColor="grey">
+      <VerticalTimeline
+        layout="1-column-right"
+        className="!w-full !mt-4"
+        lineColor="grey"
+      >
         {data.map((item) => (
           <TimelineFragment key={item.id} item={item} />
         ))}

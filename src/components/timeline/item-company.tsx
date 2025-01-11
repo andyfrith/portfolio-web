@@ -5,19 +5,20 @@ import {
   CollapsibleTrigger,
 } from "@radix-ui/react-collapsible";
 import { ExperienceCompany } from "@/lib/data";
+import Company from "./elements/company";
 
-export default function TimelineElementCompnay({
+export default function ItemCompany({
   company,
 }: {
   company: ExperienceCompany;
 }) {
   return (
     <Collapsible>
-      <CollapsibleTrigger className="mt-2 text-xs font-semibold">
+      <CollapsibleTrigger className="mt-2 text-xs font-semibold hover:text-[#39FF14]">
         {company.name} • {company.city}, {company.state} ...
       </CollapsibleTrigger>
       <CollapsibleContent className="!mb-2 !font-normal text-gray-500 !text-sm font-[family-name:var(--font-metrophobic)]">
-        {company.summary}
+        <Company company={company} />
       </CollapsibleContent>
     </Collapsible>
   );

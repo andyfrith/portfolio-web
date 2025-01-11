@@ -1,11 +1,11 @@
 import React from "react";
-import TimelineElement from "./timeline-element";
-import { Experience } from "@/lib/data";
+import Item from "@/components/timeline/item";
+import { ExperienceType } from "@/lib/data";
 
-export default function TimelineFragment({ item }: { item: Experience }) {
+export default function TimelineFragment({ item }: { item: ExperienceType }) {
   return (
     <React.Fragment key={item.id}>
-      <TimelineElement item={item} />
+      <Item item={item} />
     </React.Fragment>
   );
 }

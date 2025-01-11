@@ -4,8 +4,8 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@radix-ui/react-collapsible";
-import Success from "../success";
 import { ExperienceResults } from "@/lib/data";
+import Achievements from "@/components/timeline/elements/achievements";
 
 export default function TimelineElementAchievements({
   achievements,
@@ -14,11 +14,11 @@ export default function TimelineElementAchievements({
 }) {
   return (
     <Collapsible>
-      <CollapsibleTrigger className="mt-2 text-xs font-semibold">
+      <CollapsibleTrigger className="mt-2 text-xs font-semibold hover:text-[#39FF14]">
         Achievements ...
       </CollapsibleTrigger>
       <CollapsibleContent className="!mt-1 !font-normal text-gray-500 !text-sm font-[family-name:var(--font-metrophobic)]">
-        <Success data={achievements} />
+        <Achievements achievements={achievements} />
       </CollapsibleContent>
     </Collapsible>
   );

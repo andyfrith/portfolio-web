@@ -1,7 +1,7 @@
 import { ExperienceSummary } from "@/lib/data";
 import React from "react";
 
-export default function TimelineElementSummary({
+export default function ItemSummary({
   summary,
 }: {
   summary: ExperienceSummary;
