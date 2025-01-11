@@ -26,7 +26,7 @@ export default function Experience({
       <div className="font-[family-name:var(--font-metrophobic)] text-sm mt-2 text-gray-500">
         {experience.summary}
       </div>
-      <Success data={experience.results} />
+      <Success results={experience.results} />
       <Skills skills={experience.skills} />
     </div>
   );
