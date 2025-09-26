@@ -1,83 +1,50 @@
-export const optii = {
-  id: 5,
+export const turngate = {
+  id: 6,
   company: {
-    name: "Optii Solutions",
-    city: "Austin",
-    state: "TX",
-    industries: [{ id: 1, summary: "Hospitality Tech" }],
+    name: "Turngate",
+    city: "Ellicott City",
+    state: "MD",
+    industries: [{ id: 1, summary: "Cybersecurity" }],
     size: "11-50",
     summary:
       "Optii is a hotel operations technology that optimizes labor, streamlines operations, and empowers teams across housekeeping, service delivery, internal communication, and preventative maintenance. Optii is an MCR portfolio company and is used by hotels and resorts around the world including La Cantera Resort & Spa (Benchmark), The Don Cesar (Host), Okada Manilla Resort & Casino, Le Meridien, Doma Hotels, IHG and more.",
   },
-  role: "Senior React Developer • Team Lead • Director",
-  dates: "05.2022 - 08.2024",
+  role: "Senior Front-End Engineer • React Developer",
+  dates: "03.2025 - 09.2025",
   summary:
-    "As Director and Team Lead, I empowered the Optii engineering organization while delivering software solutions that optimized labor and streamlined operations within hotel operations. Developed product features that empowered housekeeping, preventative maintenance teams and enhanced service delivery and internal communications.",
+    "As Senior Front-End Engineer, I collaborated with other teammates in the design and implementation of scalable web applications, dedicated to transforming complex data into actionable insights. Engineered UI technology utilizing React, TypeScript and TanStack open source software.",
   results: [
     {
       id: 1,
-      summary: "Championed an agile product development strategy.",
+      summary:
+        "Championed development and adoption of TanStack Router route-based architcture.",
     },
     {
       id: 2,
-      summary: "Hired, mentored and managed distributed team of engineers.",
+      summary:
+        "Contributed to innovative development, leveraging latest technologies, enhancing platform functionality.",
     },
     {
       id: 3,
       summary:
-        "Modernized UI platform, leading an initiative to update tools and libraries to React 18.",
-    },
-    {
-      id: 4,
-      summary:
-        "Oversaw microservices API development w/ Typescript, Node.js and Apollo GraphQL.",
-    },
-    {
-      id: 5,
-      summary:
-        "Owned projects from concept to launch, contributing to architecture design and technical decision-making.",
-    },
-    {
-      id: 6,
-      summary:
-        "Led the implementation of cutting-edge user interfaces for web and mobile platforms.",
-    },
-    {
-      id: 7,
-      summary:
-        "Shaped the future of Optii product by leveraging expertise in frontend development, product design, and mentoring.",
+        "Responsible for React UI development using TanStack Query, Material UI, Material React Table.",
     },
   ],
   skills: [
-    "Leadership",
-    "Management",
-    "Mentoring",
-    "Project Management",
+    "Material UI",
     "React",
     "TypeScript",
-    "Node.js",
-    "GraphQL",
-    "Apollo",
-    "Next.js",
-    "GCP",
-    "Capacitor",
-    "Twilio",
     "SPA",
-    "PWA",
     "Microservices",
     "iOS",
-    "Nest",
-    "Jest",
+    "Playwright",
     "HTML",
     "CSS",
     "JavaScript",
     "Git",
     "Tailwind",
-    "Drizzle",
-    "Prisma",
-    "Redux",
-    "PostgreSQL",
-    "Framer Motion",
+    "TanStack Query",
+    "TanStack Router",
     "Nx",
   ],
   /*

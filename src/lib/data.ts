@@ -3,6 +3,7 @@ import { avero } from "./data-avero";
 import { blueSpruce } from "./data-blue-spruce";
 import { darkOwl } from "./data-dark-owl";
 import { isobar } from "./data-isobar";
+import { turngate } from "./data-turngate";
 
 export type ActionType = {
   id: number;
@@ -66,6 +67,7 @@ export type TimelineType = {
 export type SectionName = string;
 
 export const experiencesData: Array<ExperienceType> = [
+  { ...turngate },
   { ...optii },
   { ...avero },
   { ...blueSpruce },
